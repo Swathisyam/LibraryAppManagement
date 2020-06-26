@@ -1,0 +1,144 @@
+ <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    
+    <title><%=title%></title>
+    
+		<meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+		
+    <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="/css/styles.css" rel="stylesheet">
+    
+  </head>
+  
+	<body>
+
+<header class="navbar navbar-bright navbar-fixed-top" role="banner">
+  <div class="container">
+    <a href="/" class="navbar-brand">Home</a>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <%for(i=0;i<navAdmin.length;i++){%>
+            <li>
+              <a href="<%=navAdmin[i].link%>"> <%=navAdmin[i].name%></a> 
+            </li>
+            <%}%>
+        
+      </ul>
+      <ul class="nav navbar-right navbar-nav">
+        <li class="dropdown">
+          
+            <form class="form-inline">
+              
+              <button type="submit" class="btn btn-default pull-right">
+                <i class="glyphicon glyphicon-search"></i> </button>
+      
+              <input type="text" class="form-controlpull-left" placeholder="Search" >
+            </form>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="head1">  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1><%=title%>
+          <p class="lead">An exclusive digital library for all kinds of books you need</p>
+        </h1>
+      </div>
+
+      <div class="col-md-5">
+        <div class="well well-lg">     
+          <p style="text-align: center;">"At a time when book banning is back in vogue, libraries remind us that truth isn’t about who yells the loudest, but who has the right information."
+            — "BARACK OBAMA" </p>       
+        </div>
+      </div> 
+    </div> 
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="top-spacer">          
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+ 
+      <div class="col-md-12"> 
+      
+      <div class="panel">
+        <div class="panel-body"> 
+          
+          
+          
+          <!--/stories-->
+          <div class="row">    
+            <br>
+            <div class="col-md-2 col-sm-3 text-center">
+              <a class="story-title" href="#"> <img alt="" src="images/front.jpg" style="width:150px;height:150px" ></a>
+            </div>
+            
+            <div class="col-md-10 col-sm-9">
+              <h3 >WELCOME TO THE CENTRAL LIBRARY</h3>
+              <div class="row">
+                <div class="col-xs-9">
+                  <h4><span class="label label-default"> “A book is a gift you can open again and again.” – Garrison Keillor
+                    <br>
+                    The primary purpose of the library is to provide resources and services in a variety of media to meet the needs of individuals 
+                    <br>
+                    and groups for education, information and personal development including recreation and leisure.</span></h4><h4>
+                  <small style="font-family:courier,'new courier';" class="text-muted"> <a href="#" class="text-muted"> </a></small>
+                  </h4></div>
+                <div class="col-xs-3"></div>
+              </div>
+              <br><br>
+            </div>
+          </div>
+          <hr>
+          
+          <!--/stories-->
+          
+       <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a> 
+        
+          
+
+
+
+           
+        </div>
+      </div> 
+                                                                                       
+      
+      
+
+                                                      
+   	</div> <!--/col-12-->
+   </div>
+</div>
+                                                
+                                                                                
+
+
+<footer>
+  <div class="footer">
+    
+  </div>
+</footer>
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	</body>
+</html> 
